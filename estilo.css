@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	font size: 12pt; /*tamanho da fonte*/
+	margin: 10%; /*espaçamento da margem*/
+	/*background: #F0FFFF;*/
+	background-image: url(https://cdn.pixabay.com/photo/2017/08/02/14/26/winter-landscape-2571788_1280.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+p{
+	text-align: justify;
+	text-indent: 100px;
+	font-family: "Noto Sans", sans-serif;
+}
+
+img{
+	width: 400px;
+	height: 400px;
+	border: solid 1px whitesmoke;
+	box-shadow: 10px 10px 50px #B0E0E6; 
+	border-radius:10%; /*transformar em borda arredondada a imagem*/
+	/*control + ponto e virgula transforma em comentário a linha*/
+    /*filter: grayscale(100%) sepia(20%) invert(10%); 
+    filter: drop-shadow(1px 1px 1px #D8BFD8);
+filter: hue-rotate(270deg);*/
+filter: grayscale(100%);
+
+}
+
+img:hover{ /*o efeito acontece apenas quando passa o mouse em cima*/
+filter: grayscale(0%);
+border-radius: 100%;
+transform: scale(1.0);
+transform: rotate(0deg);
+
+}
+
+h1{
+	 font-family: "Bebas Neue", sans-serif;
+	 text-align: center;
+	 font-size: 50pt;
+
+}
+
+h1:hover{
+	color: skyblue;
+	text-shadow: 10px 10px 10px #B0E0E6;
+}
+
+div{
+	background: white;
+}
+
+div img{
+	filter: brightness(1.0);
+}
+
+p b{
+	color: darkred;
+}
